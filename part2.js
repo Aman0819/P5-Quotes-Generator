@@ -1,26 +1,23 @@
 const quotesCollection = {
   fragments: {
-    love: [
+    friendship: [
       [
-        "Life is the flower",
-        "To love and be loved",
-        "You can’t blame",
-        "Sometimes the heart",
-        "I look at you",
+        "A loyal friend",
+        "True friends",
+        "Your one good friend",
+        "Good friends",
       ],
       [
-        "for which",
-        "is to feel the",
-        "gravity for",
-        "sees what is",
-        "and see the rest of my life",
+        "is worth more than",
+        "can equals with",
+        "will make you feel more than",
+        "is a gift of",
       ],
       [
-        "love is the honey",
-        "sun from both sides",
-        "falling in love",
-        "invisible to the eye",
-        "in front of my eyes",
+        "ten thousand friends",
+        "having tons of gold and silver in life",
+        "having the antidote of fifty enemies",
+        "one soul in two bodies",
       ],
     ],
     motivational: [
@@ -72,7 +69,7 @@ const quotesCollection = {
 do {
   var typeOfQuotes = prompt(
     `Please Select Your Choices:
-   Select 1 to Show Love Quotes.
+   Select 1 to Show Friendship Quotes.
    Select 2 to Show Motivational Quotes.
    Select 0 to Exit.`
   );
@@ -81,7 +78,7 @@ do {
   var chosenTypeOfQuote = parseInt(typeOfQuotes);
 
   if (chosenTypeOfQuote === 1) {
-    quoteType = quotesCollection.fragments.love;
+    quoteType = quotesCollection.fragments.friendship;
   } else if (chosenTypeOfQuote === 2) {
     quoteType = quotesCollection.fragments.motivational;
   } else if (chosenTypeOfQuote === 0) {
